@@ -1,0 +1,25 @@
+digraph G {
+rankdir=BT;
+node [shape=box, style=rounded, fontname=Helvetica, fontsize=12];
+"12" [label="SONNINO EMMA", style=filled, fillcolor="#FFE6F3", URL="./view.php?id=12", target="_parent"];
+"52" [label="PAVONCELLO DORA", style=filled, fillcolor="#FFE6F3", URL="./view.php?id=52", target="_parent"];
+"51" [label="SONNINO AMEDEO", style=filled, fillcolor="#E6F3FF", URL="./view.php?id=51", target="_parent"];
+"57" [label="DI CAVE EMMA PERLA", style=filled, fillcolor="#FFE6F3", URL="./view.php?id=57", target="_parent"];
+"55" [label="PAVONCELLO ANGELO", style=filled, fillcolor="#E6F3FF", URL="./view.php?id=55", target="_parent"];
+"54" [label="PIPERNO  BENVENUTA", style=filled, fillcolor="#FFE6F3", URL="./view.php?id=54", target="_parent"];
+"56" [label="SONNINO ANGELO PACE", style=filled, fillcolor="#E6F3FF", URL="./view.php?id=56", target="_parent"];
+"310" [label="DI CAVE PELLEGRINO", style=filled, fillcolor="#E6F3FF", URL="./view.php?id=310", target="_parent"];
+"311" [label="PERUGIA VEGLINA", style=filled, fillcolor="#FFE6F3", URL="./view.php?id=311", target="_parent"];
+"302" [label="SONNINO ISACCO", style=filled, fillcolor="#E6F3FF", URL="./view.php?id=302", target="_parent"];
+"303" [label="TERRACINA GRAZIA", style=filled, fillcolor="#FFE6F3", URL="./view.php?id=303", target="_parent"];
+"12" -> "51" [color=blue,label="Padre"];
+"12" -> "52" [color=pink,label="Madre"];
+"52" -> "55" [color=blue,label="Padre"];
+"52" -> "54" [color=pink,label="Madre"];
+"51" -> "56" [color=blue,label="Padre"];
+"51" -> "57" [color=pink,label="Madre"];
+"57" -> "310" [color=blue,label="Padre"];
+"57" -> "311" [color=pink,label="Madre"];
+"56" -> "302" [color=blue,label="Padre"];
+"56" -> "303" [color=pink,label="Madre"];
+}

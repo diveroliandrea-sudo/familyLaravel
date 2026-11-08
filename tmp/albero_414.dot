@@ -1,0 +1,5 @@
+digraph G {
+rankdir=BT;
+node [shape=box, style=rounded, fontname=Helvetica, fontsize=12];
+"414" [label="ANTICOLI STELLA", style=filled, fillcolor="#FFE6F3", URL="./view.php?id=414", target="_parent"];
+}

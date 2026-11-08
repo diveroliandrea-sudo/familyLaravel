@@ -1,0 +1,9 @@
+digraph G {
+rankdir=BT;
+node [shape=box, style=rounded, fontname=Helvetica, fontsize=12];
+"400" [label="DI CORI ENRICA", style=filled, fillcolor="#FFE6F3", URL="./view.php?id=400", target="_parent"];
+"404" [label="DI CORI EUGENIO", style=filled, fillcolor="#E6F3FF", URL="./view.php?id=404", target="_parent"];
+"401" [label="DI VEROLI OLGA", style=filled, fillcolor="#FFE6F3", URL="./view.php?id=401", target="_parent"];
+"400" -> "404" [color=blue,label="Padre"];
+"400" -> "401" [color=pink,label="Madre"];
+}

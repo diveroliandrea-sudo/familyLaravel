@@ -1,0 +1,25 @@
+digraph G {
+rankdir=BT;
+node [shape=box, style=rounded, fontname=Helvetica, fontsize=12];
+"128" [label="DI VEROLI ASRIELE ALESSANDRO", style=filled, fillcolor="#E6F3FF", URL="./view.php?id=128", target="_parent"];
+"118" [label="DI VEROLI MOSE LEONE", style=filled, fillcolor="#E6F3FF", URL="./view.php?id=118", target="_parent"];
+"125" [label="PIPERNO ROSA", style=filled, fillcolor="#FFE6F3", URL="./view.php?id=125", target="_parent"];
+"127" [label="ABBINA ONORATA", style=filled, fillcolor="#FFE6F3", URL="./view.php?id=127", target="_parent"];
+"33" [label="DI CONSIGLIO STELLA", style=filled, fillcolor="#FFE6F3", URL="./view.php?id=33", target="_parent"];
+"23" [label="DI VEROLI ASRIELE ALESSANDRO GIUSEPPE", style=filled, fillcolor="#E6F3FF", URL="./view.php?id=23", target="_parent"];
+"126" [label="PIPERNO ISAIA", style=filled, fillcolor="#E6F3FF", URL="./view.php?id=126", target="_parent"];
+"123" [label="DI CONSIGLIO GIUSEPPE", style=filled, fillcolor="#E6F3FF", URL="./view.php?id=123", target="_parent"];
+"24" [label="DI VEROLI DONATO", style=filled, fillcolor="#E6F3FF", URL="./view.php?id=24", target="_parent"];
+"25" [label="PERUGIA ONESTA", style=filled, fillcolor="#FFE6F3", URL="./view.php?id=25", target="_parent"];
+"124" [label="PERUGIA VEGLINA", style=filled, fillcolor="#FFE6F3", URL="./view.php?id=124", target="_parent"];
+"128" -> "118" [color=blue,label="Padre"];
+"128" -> "125" [color=pink,label="Madre"];
+"118" -> "23" [color=blue,label="Padre"];
+"118" -> "33" [color=pink,label="Madre"];
+"125" -> "126" [color=blue,label="Padre"];
+"125" -> "127" [color=pink,label="Madre"];
+"33" -> "123" [color=blue,label="Padre"];
+"33" -> "124" [color=pink,label="Madre"];
+"23" -> "24" [color=blue,label="Padre"];
+"23" -> "25" [color=pink,label="Madre"];
+}

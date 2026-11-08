@@ -1,0 +1,9 @@
+digraph G {
+rankdir=BT;
+node [shape=box, style=rounded, fontname=Helvetica, fontsize=12];
+"424" [label="CALO\' ELENA", style=filled, fillcolor="#FFE6F3", URL="./view.php?id=424", target="_parent"];
+"425" [label="CALO\' ANGELO", style=filled, fillcolor="#FFE6F3", URL="./view.php?id=425", target="_parent"];
+"426" [label="PIPERNO FATINA", style=filled, fillcolor="#FFE6F3", URL="./view.php?id=426", target="_parent"];
+"424" -> "425" [color=blue,label="Padre"];
+"424" -> "426" [color=pink,label="Madre"];
+}

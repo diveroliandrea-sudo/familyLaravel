@@ -1,0 +1,5 @@
+digraph G {
+rankdir=BT;
+node [shape=box, style=rounded, fontname=Helvetica, fontsize=12];
+"127" [label="ABBINA ONORATA", style=filled, fillcolor="#FFE6F3", URL="./view.php?id=127", target="_parent"];
+}

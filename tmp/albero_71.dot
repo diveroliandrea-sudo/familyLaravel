@@ -1,0 +1,21 @@
+digraph G {
+rankdir=BT;
+node [shape=box, style=rounded, fontname=Helvetica, fontsize=12];
+"71" [label="SALMONI ALESSIA", style=filled, fillcolor="#FFE6F3", URL="./view.php?id=71", target="_parent"];
+"66" [label="AMATI ORNELLA", style=filled, fillcolor="#FFE6F3", URL="./view.php?id=66", target="_parent"];
+"69" [label="SALMONI ELIO", style=filled, fillcolor="#E6F3FF", URL="./view.php?id=69", target="_parent"];
+"9" [label="AMATI GIULIO", style=filled, fillcolor="#E6F3FF", URL="./view.php?id=9", target="_parent"];
+"12" [label="SONNINO EMMA", style=filled, fillcolor="#FFE6F3", URL="./view.php?id=12", target="_parent"];
+"59" [label="AMATI LAUDADIO AMEDEO", style=filled, fillcolor="#E6F3FF", URL="./view.php?id=59", target="_parent"];
+"58" [label="DI VEROLI ENRICA", style=filled, fillcolor="#FFE6F3", URL="./view.php?id=58", target="_parent"];
+"52" [label="PAVONCELLO DORA", style=filled, fillcolor="#FFE6F3", URL="./view.php?id=52", target="_parent"];
+"51" [label="SONNINO AMEDEO", style=filled, fillcolor="#E6F3FF", URL="./view.php?id=51", target="_parent"];
+"71" -> "69" [color=blue,label="Padre"];
+"71" -> "66" [color=pink,label="Madre"];
+"66" -> "9" [color=blue,label="Padre"];
+"66" -> "12" [color=pink,label="Madre"];
+"9" -> "59" [color=blue,label="Padre"];
+"9" -> "58" [color=pink,label="Madre"];
+"12" -> "51" [color=blue,label="Padre"];
+"12" -> "52" [color=pink,label="Madre"];
+}

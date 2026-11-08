@@ -1,0 +1,13 @@
+digraph G {
+rankdir=BT;
+node [shape=box, style=rounded, fontname=Helvetica, fontsize=12];
+"276" [label="DI NOLA ANGELO", style=filled, fillcolor="#E6F3FF"];
+"273" [label="DI NOLA MOSE", style=filled, fillcolor="#E6F3FF"];
+"274" [label="PIAZZA ALLEGRA", style=filled, fillcolor="#FFE6F3"];
+"35" [label="CITONI FORTUNATA", style=filled, fillcolor="#FFE6F3"];
+"34" [label="DI NOLA GIACOBBE GIUSEPPE", style=filled, fillcolor="#E6F3FF"];
+"276" -> "273" [color=blue,label="Padre"];
+"276" -> "274" [color=pink,label="Madre"];
+"273" -> "34" [color=blue,label="Padre"];
+"273" -> "35" [color=pink,label="Madre"];
+}

@@ -1,0 +1,29 @@
+digraph G {
+rankdir=BT;
+node [shape=box, style=rounded, fontname=Helvetica, fontsize=12];
+"251" [label="CAVIGLIA LELLO SAMUELE", style=filled, fillcolor="#E6F3FF", URL="./view.php?id=251", target="_parent"];
+"333" [label="CALÒ LETIZIA", style=filled, fillcolor="#FFE6F3", URL="./view.php?id=333", target="_parent"];
+"332" [label="CAVIGLIA ISACCO EUGENIO", style=filled, fillcolor="#E6F3FF", URL="./view.php?id=332", target="_parent"];
+"381" [label="CALÒ DAVID", style=filled, fillcolor="#E6F3FF", URL="./view.php?id=381", target="_parent"];
+"373" [label="CAVIGLIA SABATO", style=filled, fillcolor="#E6F3FF", URL="./view.php?id=373", target="_parent"];
+"377" [label="DI PORTO ANGELICA", style=filled, fillcolor="#FFE6F3", URL="./view.php?id=377", target="_parent"];
+"384" [label="SPIZZICHINO BELLADONNA", style=filled, fillcolor="#FFE6F3", URL="./view.php?id=384", target="_parent"];
+"378" [label="ASTROLOGO ENRICHETTA", style=filled, fillcolor="#FFE6F3", URL="./view.php?id=378", target="_parent"];
+"382" [label="CALÒ ABRAMO", style=filled, fillcolor="#E6F3FF", URL="./view.php?id=382", target="_parent"];
+"374" [label="CAVIGLIA ABRAMO", style=filled, fillcolor="#E6F3FF", URL="./view.php?id=374", target="_parent"];
+"387" [label="DI PORTO ISACCO", style=filled, fillcolor="#E6F3FF", URL="./view.php?id=387", target="_parent"];
+"385" [label="SONNINO ROSA", style=filled, fillcolor="#FFE6F3", URL="./view.php?id=385", target="_parent"];
+"105" [label="VIVANTI SARA", style=filled, fillcolor="#FFE6F3", URL="./view.php?id=105", target="_parent"];
+"251" -> "332" [color=blue,label="Padre"];
+"251" -> "333" [color=pink,label="Madre"];
+"333" -> "381" [color=blue,label="Padre"];
+"333" -> "384" [color=pink,label="Madre"];
+"332" -> "373" [color=blue,label="Padre"];
+"332" -> "377" [color=pink,label="Madre"];
+"381" -> "382" [color=blue,label="Padre"];
+"381" -> "385" [color=pink,label="Madre"];
+"373" -> "374" [color=blue,label="Padre"];
+"373" -> "378" [color=pink,label="Madre"];
+"377" -> "387" [color=blue,label="Padre"];
+"377" -> "105" [color=pink,label="Madre"];
+}

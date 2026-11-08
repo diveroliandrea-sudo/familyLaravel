@@ -1,0 +1,25 @@
+digraph G {
+rankdir=BT;
+node [shape=box, style=rounded, fontname=Helvetica, fontsize=12];
+"178" [label="DI VEROLI UMBERTO", style=filled, fillcolor="#E6F3FF", URL="./view.php?id=178", target="_parent"];
+"32" [label="DI VEROLI MARIO", style=filled, fillcolor="#E6F3FF", URL="./view.php?id=32", target="_parent"];
+"186" [label="TAGLIACOZZO ITALIA", style=filled, fillcolor="#FFE6F3", URL="./view.php?id=186", target="_parent"];
+"19" [label="DI VEROLI ABRAMO UMBERTO", style=filled, fillcolor="#E6F3FF", URL="./view.php?id=19", target="_parent"];
+"20" [label="DI VEROLI GENTILE", style=filled, fillcolor="#FFE6F3", URL="./view.php?id=20", target="_parent"];
+"335" [label="GRECO AUDA", style=filled, fillcolor="#FFE6F3", URL="./view.php?id=335", target="_parent"];
+"334" [label="TAGLIACOZZO DAVIDE", style=filled, fillcolor="#E6F3FF", URL="./view.php?id=334", target="_parent"];
+"22" [label="DI NOLA ANGELICA", style=filled, fillcolor="#FFE6F3", URL="./view.php?id=22", target="_parent"];
+"21" [label="DI VEROLI DONATO", style=filled, fillcolor="#E6F3FF", URL="./view.php?id=21", target="_parent"];
+"46" [label="DI VEROLI GIACOBBE MOSE", style=filled, fillcolor="#E6F3FF", URL="./view.php?id=46", target="_parent"];
+"45" [label="SPIZZICHINO ENRICA", style=filled, fillcolor="#FFE6F3", URL="./view.php?id=45", target="_parent"];
+"178" -> "32" [color=blue,label="Padre"];
+"178" -> "186" [color=pink,label="Madre"];
+"32" -> "19" [color=blue,label="Padre"];
+"32" -> "20" [color=pink,label="Madre"];
+"186" -> "334" [color=blue,label="Padre"];
+"186" -> "335" [color=pink,label="Madre"];
+"19" -> "21" [color=blue,label="Padre"];
+"19" -> "22" [color=pink,label="Madre"];
+"20" -> "46" [color=blue,label="Padre"];
+"20" -> "45" [color=pink,label="Madre"];
+}

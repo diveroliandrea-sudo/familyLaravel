@@ -1,0 +1,9 @@
+digraph G {
+rankdir=BT;
+node [shape=box, style=rounded, fontname=Helvetica, fontsize=12];
+"273" [label="DI NOLA MOSE", style=filled, fillcolor="#E6F3FF", URL="./view.php?id=273", target="_parent"];
+"35" [label="CITONI FORTUNATA", style=filled, fillcolor="#FFE6F3", URL="./view.php?id=35", target="_parent"];
+"34" [label="DI NOLA GIACOBBE GIUSEPPE", style=filled, fillcolor="#E6F3FF", URL="./view.php?id=34", target="_parent"];
+"273" -> "34" [color=blue,label="Padre"];
+"273" -> "35" [color=pink,label="Madre"];
+}

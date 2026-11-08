@@ -1,0 +1,5 @@
+digraph G {
+rankdir=BT;
+node [shape=box, style=rounded, fontname=Helvetica, fontsize=12];
+"404" [label="DI CORI EUGENIO", style=filled, fillcolor="#E6F3FF", URL="./view.php?id=404", target="_parent"];
+}

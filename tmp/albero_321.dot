@@ -1,0 +1,21 @@
+digraph G {
+rankdir=BT;
+node [shape=box, style=rounded, fontname=Helvetica, fontsize=12];
+"321" [label="AMATI AMEDEO", style=filled, fillcolor="#E6F3FF", URL="./view.php?id=321", target="_parent"];
+"331" [label="AMATI ITALO", style=filled, fillcolor="#E6F3FF", URL="./view.php?id=331", target="_parent"];
+"318" [label="SONNINO PIA", style=filled, fillcolor="#FFE6F3", URL="./view.php?id=318", target="_parent"];
+"100" [label="AMATI ISACCO", style=filled, fillcolor="#E6F3FF", URL="./view.php?id=100", target="_parent"];
+"101" [label="VENEZIANO SARA", style=filled, fillcolor="#FFE6F3", URL="./view.php?id=101", target="_parent"];
+"104" [label="AMATI LAUDADIO", style=filled, fillcolor="#E6F3FF", URL="./view.php?id=104", target="_parent"];
+"103" [label="PIPERNO GIOIA", style=filled, fillcolor="#FFE6F3", URL="./view.php?id=103", target="_parent"];
+"102" [label="VENEZIANO SAMUELE TRANQUILLO", style=filled, fillcolor="#E6F3FF", URL="./view.php?id=102", target="_parent"];
+"106" [label="VIVANTI SARA", style=filled, fillcolor="#FFE6F3", URL="./view.php?id=106", target="_parent"];
+"321" -> "331" [color=blue,label="Padre"];
+"321" -> "318" [color=pink,label="Madre"];
+"331" -> "100" [color=blue,label="Padre"];
+"331" -> "101" [color=pink,label="Madre"];
+"100" -> "104" [color=blue,label="Padre"];
+"100" -> "106" [color=pink,label="Madre"];
+"101" -> "102" [color=blue,label="Padre"];
+"101" -> "103" [color=pink,label="Madre"];
+}

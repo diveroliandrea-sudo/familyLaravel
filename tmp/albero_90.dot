@@ -1,0 +1,21 @@
+digraph G {
+rankdir=BT;
+node [shape=box, style=rounded, fontname=Helvetica, fontsize=12];
+"90" [label="DELLA SETA CESARE", style=filled, fillcolor="#E6F3FF", URL="./view.php?id=90", target="_parent"];
+"89" [label="DELLA SETA DONATO", style=filled, fillcolor="#E6F3FF", URL="./view.php?id=89", target="_parent"];
+"93" [label="DI PORTO FATINA", style=filled, fillcolor="#FFE6F3", URL="./view.php?id=93", target="_parent"];
+"424" [label="CALO\' ELENA", style=filled, fillcolor="#FFE6F3", URL="./view.php?id=424", target="_parent"];
+"431" [label="DELLA SETA EMANUELE", style=filled, fillcolor="#E6F3FF", URL="./view.php?id=431", target="_parent"];
+"423" [label="DI PORTO CESARE", style=filled, fillcolor="#E6F3FF", URL="./view.php?id=423", target="_parent"];
+"432" [label="PIAZZA EUGENIA", style=filled, fillcolor="#FFE6F3", URL="./view.php?id=432", target="_parent"];
+"425" [label="CALO\' ANGELO", style=filled, fillcolor="#E6F3FF", URL="./view.php?id=425", target="_parent"];
+"426" [label="PIPERNO FATINA", style=filled, fillcolor="#FFE6F3", URL="./view.php?id=426", target="_parent"];
+"90" -> "89" [color=blue,label="Padre"];
+"90" -> "93" [color=pink,label="Madre"];
+"89" -> "431" [color=blue,label="Padre"];
+"89" -> "432" [color=pink,label="Madre"];
+"93" -> "423" [color=blue,label="Padre"];
+"93" -> "424" [color=pink,label="Madre"];
+"424" -> "425" [color=blue,label="Padre"];
+"424" -> "426" [color=pink,label="Madre"];
+}

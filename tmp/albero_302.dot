@@ -1,0 +1,5 @@
+digraph G {
+rankdir=BT;
+node [shape=box, style=rounded, fontname=Helvetica, fontsize=12];
+"302" [label="SONNINO ISACCO", style=filled, fillcolor="#E6F3FF", URL="./view.php?id=302", target="_parent"];
+}

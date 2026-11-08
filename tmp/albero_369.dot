@@ -1,0 +1,17 @@
+digraph G {
+rankdir=BT;
+node [shape=box, style=rounded, fontname=Helvetica, fontsize=12];
+"369" [label="DI VEROLI CARLO", style=filled, fillcolor="#E6F3FF", URL="./view.php?id=369", target="_parent"];
+"171" [label="DI VEROLI ADOLFO", style=filled, fillcolor="#E6F3FF", URL="./view.php?id=171", target="_parent"];
+"367" [label="MIELI ROSSANA", style=filled, fillcolor="#FFE6F3", URL="./view.php?id=367", target="_parent"];
+"135" [label="DI VEROLI ADA", style=filled, fillcolor="#FFE6F3", URL="./view.php?id=135", target="_parent"];
+"64" [label="DI VEROLI CESARE", style=filled, fillcolor="#E6F3FF", URL="./view.php?id=64", target="_parent"];
+"60" [label="DI VEROLI ABRAMO", style=filled, fillcolor="#E6F3FF", URL="./view.php?id=60", target="_parent"];
+"61" [label="VENEZIANO PERLA", style=filled, fillcolor="#FFE6F3", URL="./view.php?id=61", target="_parent"];
+"369" -> "171" [color=blue,label="Padre"];
+"369" -> "367" [color=pink,label="Madre"];
+"171" -> "64" [color=blue,label="Padre"];
+"171" -> "135" [color=pink,label="Madre"];
+"64" -> "60" [color=blue,label="Padre"];
+"64" -> "61" [color=pink,label="Madre"];
+}

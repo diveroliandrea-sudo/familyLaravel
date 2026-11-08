@@ -1,0 +1,29 @@
+digraph G {
+rankdir=BT;
+node [shape=box, style=rounded, fontname=Helvetica, fontsize=12];
+"96" [label="DELLA SETA SARA", style=filled, fillcolor="#FFE6F3", URL="./view.php?id=96", target="_parent"];
+"90" [label="DELLA SETA CESARE", style=filled, fillcolor="#E6F3FF", URL="./view.php?id=90", target="_parent"];
+"71" [label="SALMONI ALESSIA", style=filled, fillcolor="#FFE6F3", URL="./view.php?id=71", target="_parent"];
+"66" [label="AMATI ORNELLA", style=filled, fillcolor="#FFE6F3", URL="./view.php?id=66", target="_parent"];
+"89" [label="DELLA SETA DONATO", style=filled, fillcolor="#E6F3FF", URL="./view.php?id=89", target="_parent"];
+"93" [label="DI PORTO FATINA", style=filled, fillcolor="#FFE6F3", URL="./view.php?id=93", target="_parent"];
+"69" [label="SALMONI ELIO", style=filled, fillcolor="#E6F3FF", URL="./view.php?id=69", target="_parent"];
+"9" [label="AMATI GIULIO", style=filled, fillcolor="#E6F3FF", URL="./view.php?id=9", target="_parent"];
+"424" [label="CALO\' ELENA", style=filled, fillcolor="#FFE6F3", URL="./view.php?id=424", target="_parent"];
+"431" [label="DELLA SETA EMANUELE", style=filled, fillcolor="#E6F3FF", URL="./view.php?id=431", target="_parent"];
+"423" [label="DI PORTO CESARE", style=filled, fillcolor="#E6F3FF", URL="./view.php?id=423", target="_parent"];
+"432" [label="PIAZZA EUGENIA", style=filled, fillcolor="#FFE6F3", URL="./view.php?id=432", target="_parent"];
+"12" [label="SONNINO EMMA", style=filled, fillcolor="#FFE6F3", URL="./view.php?id=12", target="_parent"];
+"96" -> "90" [color=blue,label="Padre"];
+"96" -> "71" [color=pink,label="Madre"];
+"90" -> "89" [color=blue,label="Padre"];
+"90" -> "93" [color=pink,label="Madre"];
+"71" -> "69" [color=blue,label="Padre"];
+"71" -> "66" [color=pink,label="Madre"];
+"66" -> "9" [color=blue,label="Padre"];
+"66" -> "12" [color=pink,label="Madre"];
+"89" -> "431" [color=blue,label="Padre"];
+"89" -> "432" [color=pink,label="Madre"];
+"93" -> "423" [color=blue,label="Padre"];
+"93" -> "424" [color=pink,label="Madre"];
+}

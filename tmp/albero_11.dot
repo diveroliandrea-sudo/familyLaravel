@@ -1,0 +1,17 @@
+digraph G {
+rankdir=BT;
+node [shape=box, style=rounded, fontname=Helvetica, fontsize=12];
+"11" [label="PIAZZA ELEONORA", style=filled, fillcolor="#FFE6F3", URL="./view.php?id=11", target="_parent"];
+"41" [label="PIAZZA GIOVANNI", style=filled, fillcolor="#E6F3FF", URL="./view.php?id=41", target="_parent"];
+"40" [label="SPIZZICHINO RINA", style=filled, fillcolor="#FFE6F3", URL="./view.php?id=40", target="_parent"];
+"151" [label="MIELI SPERANZA", style=filled, fillcolor="#FFE6F3", URL="./view.php?id=151", target="_parent"];
+"152" [label="SPIZZICHINO ANGELO", style=filled, fillcolor="#E6F3FF", URL="./view.php?id=152", target="_parent"];
+"414" [label="ANTICOLI STELLA", style=filled, fillcolor="#FFE6F3", URL="./view.php?id=414", target="_parent"];
+"413" [label="SPIZZICHINO GIACOBBE", style=filled, fillcolor="#E6F3FF", URL="./view.php?id=413", target="_parent"];
+"11" -> "41" [color=blue,label="Padre"];
+"11" -> "40" [color=pink,label="Madre"];
+"40" -> "152" [color=blue,label="Padre"];
+"40" -> "151" [color=pink,label="Madre"];
+"152" -> "413" [color=blue,label="Padre"];
+"152" -> "414" [color=pink,label="Madre"];
+}

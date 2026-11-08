@@ -1,0 +1,33 @@
+digraph G {
+rankdir=BT;
+node [shape=box, style=rounded, fontname=Helvetica, fontsize=12];
+"1" [label="DI VEROLI ANDREA", style=filled, fillcolor="#E6F3FF", URL="./view.php?id=1", target="_parent"];
+"8" [label="AMATI DORA", style=filled, fillcolor="#FFE6F3", URL="./view.php?id=8", target="_parent"];
+"7" [label="DI VEROLI CESARE", style=filled, fillcolor="#E6F3FF", URL="./view.php?id=7", target="_parent"];
+"9" [label="AMATI GIULIO", style=filled, fillcolor="#E6F3FF", URL="./view.php?id=9", target="_parent"];
+"19" [label="DI VEROLI ABRAMO UMBERTO", style=filled, fillcolor="#E6F3FF", URL="./view.php?id=19", target="_parent"];
+"20" [label="DI VEROLI GENTILE", style=filled, fillcolor="#FFE6F3", URL="./view.php?id=20", target="_parent"];
+"12" [label="SONNINO EMMA", style=filled, fillcolor="#FFE6F3", URL="./view.php?id=12", target="_parent"];
+"59" [label="AMATI LAUDADIO AMEDEO", style=filled, fillcolor="#E6F3FF", URL="./view.php?id=59", target="_parent"];
+"22" [label="DI NOLA ANGELICA", style=filled, fillcolor="#FFE6F3", URL="./view.php?id=22", target="_parent"];
+"21" [label="DI VEROLI DONATO", style=filled, fillcolor="#E6F3FF", URL="./view.php?id=21", target="_parent"];
+"58" [label="DI VEROLI ENRICA", style=filled, fillcolor="#FFE6F3", URL="./view.php?id=58", target="_parent"];
+"46" [label="DI VEROLI GIACOBBE MOSE", style=filled, fillcolor="#E6F3FF", URL="./view.php?id=46", target="_parent"];
+"52" [label="PAVONCELLO DORA", style=filled, fillcolor="#FFE6F3", URL="./view.php?id=52", target="_parent"];
+"51" [label="SONNINO AMEDEO", style=filled, fillcolor="#E6F3FF", URL="./view.php?id=51", target="_parent"];
+"45" [label="SPIZZICHINO ENRICA", style=filled, fillcolor="#FFE6F3", URL="./view.php?id=45", target="_parent"];
+"1" -> "7" [color=blue,label="Padre"];
+"1" -> "8" [color=pink,label="Madre"];
+"8" -> "9" [color=blue,label="Padre"];
+"8" -> "12" [color=pink,label="Madre"];
+"7" -> "19" [color=blue,label="Padre"];
+"7" -> "20" [color=pink,label="Madre"];
+"9" -> "59" [color=blue,label="Padre"];
+"9" -> "58" [color=pink,label="Madre"];
+"19" -> "21" [color=blue,label="Padre"];
+"19" -> "22" [color=pink,label="Madre"];
+"20" -> "46" [color=blue,label="Padre"];
+"20" -> "45" [color=pink,label="Madre"];
+"12" -> "51" [color=blue,label="Padre"];
+"12" -> "52" [color=pink,label="Madre"];
+}

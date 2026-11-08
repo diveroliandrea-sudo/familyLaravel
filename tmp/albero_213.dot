@@ -1,0 +1,33 @@
+digraph G {
+rankdir=BT;
+node [shape=box, style=rounded, fontname=Helvetica, fontsize=12];
+"213" [label="DI VEROLI ESTER RENATA", style=filled, fillcolor="#FFE6F3", URL="./view.php?id=213", target="_parent"];
+"46" [label="DI VEROLI GIACOBBE MOSE", style=filled, fillcolor="#E6F3FF", URL="./view.php?id=46", target="_parent"];
+"45" [label="SPIZZICHINO ENRICA", style=filled, fillcolor="#FFE6F3", URL="./view.php?id=45", target="_parent"];
+"47" [label="DI VEROLI ISRAELE SABATO CESARE", style=filled, fillcolor="#E6F3FF", URL="./view.php?id=47", target="_parent"];
+"50" [label="MIELI GENTILE", style=filled, fillcolor="#FFE6F3", URL="./view.php?id=50", target="_parent"];
+"242" [label="SPIZZICHINO GIUDITTA", style=filled, fillcolor="#FFE6F3", URL="./view.php?id=242", target="_parent"];
+"49" [label="SPIZZICHINO PACIFICO SALOMONE", style=filled, fillcolor="#E6F3FF", URL="./view.php?id=49", target="_parent"];
+"244" [label="DI VEROLI ANGELO", style=filled, fillcolor="#E6F3FF", URL="./view.php?id=244", target="_parent"];
+"48" [label="EFRATI ESTER", style=filled, fillcolor="#FFE6F3", URL="./view.php?id=48", target="_parent"];
+"301" [label="EFRATI RICCA", style=filled, fillcolor="#FFE6F3", URL="./view.php?id=301", target="_parent"];
+"300" [label="MIELI MOSE ISACCO", style=filled, fillcolor="#E6F3FF", URL="./view.php?id=300", target="_parent"];
+"266" [label="SPIZZICHINO GIACOBBE", style=filled, fillcolor="#FFE6F3", URL="./view.php?id=266", target="_parent"];
+"291" [label="SPIZZICHINO LAZZARO", style=filled, fillcolor="#E6F3FF", URL="./view.php?id=291", target="_parent"];
+"267" [label="SPIZZICHINO REGINA", style=filled, fillcolor="#FFE6F3", URL="./view.php?id=267", target="_parent"];
+"292" [label="SPIZZICHINO RICCA", style=filled, fillcolor="#FFE6F3", URL="./view.php?id=292", target="_parent"];
+"213" -> "46" [color=blue,label="Padre"];
+"213" -> "45" [color=pink,label="Madre"];
+"46" -> "47" [color=blue,label="Padre"];
+"46" -> "242" [color=pink,label="Madre"];
+"45" -> "49" [color=blue,label="Padre"];
+"45" -> "50" [color=pink,label="Madre"];
+"47" -> "244" [color=blue,label="Padre"];
+"47" -> "48" [color=pink,label="Madre"];
+"50" -> "300" [color=blue,label="Padre"];
+"50" -> "301" [color=pink,label="Madre"];
+"242" -> "266" [color=blue,label="Padre"];
+"242" -> "267" [color=pink,label="Madre"];
+"49" -> "291" [color=blue,label="Padre"];
+"49" -> "292" [color=pink,label="Madre"];
+}

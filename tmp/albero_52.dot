@@ -1,0 +1,9 @@
+digraph G {
+rankdir=BT;
+node [shape=box, style=rounded, fontname=Helvetica, fontsize=12];
+"52" [label="PAVONCELLO DORA", style=filled, fillcolor="#FFE6F3", URL="./view.php?id=52", target="_parent"];
+"55" [label="PAVONCELLO ANGELO", style=filled, fillcolor="#E6F3FF", URL="./view.php?id=55", target="_parent"];
+"54" [label="PIPERNO  BENVENUTA", style=filled, fillcolor="#FFE6F3", URL="./view.php?id=54", target="_parent"];
+"52" -> "55" [color=blue,label="Padre"];
+"52" -> "54" [color=pink,label="Madre"];
+}

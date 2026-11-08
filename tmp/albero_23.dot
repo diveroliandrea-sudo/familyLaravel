@@ -1,0 +1,15 @@
+digraph G {
+rankdir=BT;
+node [shape=box, style=rounded, fontname=Helvetica, fontsize=12];
+"23" [label="DI VEROLI ASRIELE ALESSANDRO GIUSEPPE", style=filled, fillcolor="#E6F3FF", URL="./view.php?id=23", target="_parent"];
+"24" [label="DI VEROLI DONATO", style=filled, fillcolor="#E6F3FF", URL="./view.php?id=24", target="_parent"];
+"25" [label="PERUGIA ONESTA", style=filled, fillcolor="#FFE6F3", URL="./view.php?id=25", target="_parent"];
+"167" [label="DI VEROLI ROSA", style=filled, fillcolor="#FFE6F3", URL="./view.php?id=167", target="_parent"];
+"36" [label="PERUGIA ASRIELE", style=filled, fillcolor="#E6F3FF", URL="./view.php?id=36", target="_parent"];
+"37" [label="VIVANTI CHIARA", style=filled, fillcolor="#FFE6F3", URL="./view.php?id=37", target="_parent"];
+"23" -> "24" [color=blue,label="Padre"];
+"23" -> "25" [color=pink,label="Madre"];
+"24" -> "167" [color=pink,label="Madre"];
+"25" -> "36" [color=blue,label="Padre"];
+"25" -> "37" [color=pink,label="Madre"];
+}

@@ -1,0 +1,9 @@
+digraph G {
+rankdir=BT;
+node [shape=box, style=rounded, fontname=Helvetica, fontsize=12];
+"101" [label="VENEZIANO SARA", style=filled, fillcolor="#FFE6F3", URL="./view.php?id=101", target="_parent"];
+"103" [label="PIPERNO GIOIA", style=filled, fillcolor="#FFE6F3", URL="./view.php?id=103", target="_parent"];
+"102" [label="VENEZIANO SAMUELE TRANQUILLO", style=filled, fillcolor="#E6F3FF", URL="./view.php?id=102", target="_parent"];
+"101" -> "102" [color=blue,label="Padre"];
+"101" -> "103" [color=pink,label="Madre"];
+}

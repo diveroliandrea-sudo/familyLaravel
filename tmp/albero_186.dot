@@ -1,0 +1,9 @@
+digraph G {
+rankdir=BT;
+node [shape=box, style=rounded, fontname=Helvetica, fontsize=12];
+"186" [label="TAGLIACOZZO ITALIA", style=filled, fillcolor="#FFE6F3", URL="./view.php?id=186", target="_parent"];
+"335" [label="GRECO AUDA", style=filled, fillcolor="#FFE6F3", URL="./view.php?id=335", target="_parent"];
+"334" [label="TAGLIACOZZO DAVIDE", style=filled, fillcolor="#E6F3FF", URL="./view.php?id=334", target="_parent"];
+"186" -> "334" [color=blue,label="Padre"];
+"186" -> "335" [color=pink,label="Madre"];
+}

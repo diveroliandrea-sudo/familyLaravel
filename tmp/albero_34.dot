@@ -1,0 +1,5 @@
+digraph G {
+rankdir=BT;
+node [shape=box, style=rounded, fontname=Helvetica, fontsize=12];
+"34" [label="DI NOLA GIACOBBE GIUSEPPE", style=filled, fillcolor="#E6F3FF", URL="./view.php?id=34", target="_parent"];
+}

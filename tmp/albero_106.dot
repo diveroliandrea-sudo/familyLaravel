@@ -1,0 +1,13 @@
+digraph G {
+rankdir=BT;
+node [shape=box, style=rounded, fontname=Helvetica, fontsize=12];
+"106" [label="VIVANTI SARA", style=filled, fillcolor="#FFE6F3", URL="./view.php?id=106", target="_parent"];
+"108" [label="DI CORI BELLADONNA", style=filled, fillcolor="#FFE6F3", URL="./view.php?id=108", target="_parent"];
+"107" [label="VIVANTI ISACCO", style=filled, fillcolor="#E6F3FF", URL="./view.php?id=107", target="_parent"];
+"113" [label="SONNINO SARA", style=filled, fillcolor="#FFE6F3", URL="./view.php?id=113", target="_parent"];
+"112" [label="VIVANTI ELIA", style=filled, fillcolor="#E6F3FF", URL="./view.php?id=112", target="_parent"];
+"106" -> "107" [color=blue,label="Padre"];
+"106" -> "108" [color=pink,label="Madre"];
+"107" -> "112" [color=blue,label="Padre"];
+"107" -> "113" [color=pink,label="Madre"];
+}

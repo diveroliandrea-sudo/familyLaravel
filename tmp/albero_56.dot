@@ -1,0 +1,9 @@
+digraph G {
+rankdir=BT;
+node [shape=box, style=rounded, fontname=Helvetica, fontsize=12];
+"56" [label="SONNINO ANGELO PACE", style=filled, fillcolor="#E6F3FF", URL="./view.php?id=56", target="_parent"];
+"302" [label="SONNINO ISACCO", style=filled, fillcolor="#E6F3FF", URL="./view.php?id=302", target="_parent"];
+"303" [label="TERRACINA GRAZIA", style=filled, fillcolor="#FFE6F3", URL="./view.php?id=303", target="_parent"];
+"56" -> "302" [color=blue,label="Padre"];
+"56" -> "303" [color=pink,label="Madre"];
+}

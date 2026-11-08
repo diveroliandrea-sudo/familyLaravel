@@ -1,0 +1,9 @@
+digraph G {
+rankdir=BT;
+node [shape=box, style=rounded, fontname=Helvetica, fontsize=12];
+"244" [label="DI VEROLI ANGELO", style=filled, fillcolor="#E6F3FF", URL="./view.php?id=244", target="_parent"];
+"253" [label="DI VEROLI ISRAELE", style=filled, fillcolor="#E6F3FF", URL="./view.php?id=253", target="_parent"];
+"252" [label="HAVLE\' SPERANZA", style=filled, fillcolor="#FFE6F3", URL="./view.php?id=252", target="_parent"];
+"244" -> "253" [color=blue,label="Padre"];
+"244" -> "252" [color=pink,label="Madre"];
+}

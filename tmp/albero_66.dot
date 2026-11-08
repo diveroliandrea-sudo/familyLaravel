@@ -1,0 +1,33 @@
+digraph G {
+rankdir=BT;
+node [shape=box, style=rounded, fontname=Helvetica, fontsize=12];
+"66" [label="AMATI ORNELLA", style=filled, fillcolor="#FFE6F3", URL="./view.php?id=66", target="_parent"];
+"9" [label="AMATI GIULIO", style=filled, fillcolor="#E6F3FF", URL="./view.php?id=9", target="_parent"];
+"12" [label="SONNINO EMMA", style=filled, fillcolor="#FFE6F3", URL="./view.php?id=12", target="_parent"];
+"59" [label="AMATI LAUDADIO AMEDEO", style=filled, fillcolor="#E6F3FF", URL="./view.php?id=59", target="_parent"];
+"58" [label="DI VEROLI ENRICA", style=filled, fillcolor="#FFE6F3", URL="./view.php?id=58", target="_parent"];
+"52" [label="PAVONCELLO DORA", style=filled, fillcolor="#FFE6F3", URL="./view.php?id=52", target="_parent"];
+"51" [label="SONNINO AMEDEO", style=filled, fillcolor="#E6F3FF", URL="./view.php?id=51", target="_parent"];
+"100" [label="AMATI ISACCO", style=filled, fillcolor="#E6F3FF", URL="./view.php?id=100", target="_parent"];
+"57" [label="DI CAVE EMMA PERLA", style=filled, fillcolor="#FFE6F3", URL="./view.php?id=57", target="_parent"];
+"60" [label="DI VEROLI ABRAMO", style=filled, fillcolor="#E6F3FF", URL="./view.php?id=60", target="_parent"];
+"55" [label="PAVONCELLO ANGELO", style=filled, fillcolor="#E6F3FF", URL="./view.php?id=55", target="_parent"];
+"54" [label="PIPERNO  BENVENUTA", style=filled, fillcolor="#FFE6F3", URL="./view.php?id=54", target="_parent"];
+"56" [label="SONNINO ANGELO PACE", style=filled, fillcolor="#E6F3FF", URL="./view.php?id=56", target="_parent"];
+"61" [label="VENEZIANO PERLA", style=filled, fillcolor="#FFE6F3", URL="./view.php?id=61", target="_parent"];
+"101" [label="VENEZIANO SARA", style=filled, fillcolor="#FFE6F3", URL="./view.php?id=101", target="_parent"];
+"66" -> "9" [color=blue,label="Padre"];
+"66" -> "12" [color=pink,label="Madre"];
+"9" -> "59" [color=blue,label="Padre"];
+"9" -> "58" [color=pink,label="Madre"];
+"12" -> "51" [color=blue,label="Padre"];
+"12" -> "52" [color=pink,label="Madre"];
+"59" -> "100" [color=blue,label="Padre"];
+"59" -> "101" [color=pink,label="Madre"];
+"58" -> "60" [color=blue,label="Padre"];
+"58" -> "61" [color=pink,label="Madre"];
+"52" -> "55" [color=blue,label="Padre"];
+"52" -> "54" [color=pink,label="Madre"];
+"51" -> "56" [color=blue,label="Padre"];
+"51" -> "57" [color=pink,label="Madre"];
+}

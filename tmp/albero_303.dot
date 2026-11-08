@@ -1,0 +1,5 @@
+digraph G {
+rankdir=BT;
+node [shape=box, style=rounded, fontname=Helvetica, fontsize=12];
+"303" [label="TERRACINA GRAZIA", style=filled, fillcolor="#FFE6F3", URL="./view.php?id=303", target="_parent"];
+}

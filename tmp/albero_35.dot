@@ -1,0 +1,5 @@
+digraph G {
+rankdir=BT;
+node [shape=box, style=rounded, fontname=Helvetica, fontsize=12];
+"35" [label="CITONI FORTUNATA", style=filled, fillcolor="#FFE6F3", URL="./view.php?id=35", target="_parent"];
+}

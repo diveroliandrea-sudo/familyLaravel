@@ -1,0 +1,5 @@
+digraph G {
+rankdir=BT;
+node [shape=box, style=rounded, fontname=Helvetica, fontsize=12];
+"42" [label="DI CONSIGLIO GUGLIELMO", style=filled, fillcolor="#E6F3FF", URL="./view.php?id=42", target="_parent"];
+}

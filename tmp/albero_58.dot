@@ -1,0 +1,25 @@
+digraph G {
+rankdir=BT;
+node [shape=box, style=rounded, fontname=Helvetica, fontsize=12];
+"58" [label="DI VEROLI ENRICA", style=filled, fillcolor="#FFE6F3", URL="./view.php?id=58", target="_parent"];
+"60" [label="DI VEROLI ABRAMO", style=filled, fillcolor="#E6F3FF", URL="./view.php?id=60", target="_parent"];
+"61" [label="VENEZIANO PERLA", style=filled, fillcolor="#FFE6F3", URL="./view.php?id=61", target="_parent"];
+"244" [label="DI VEROLI ANGELO", style=filled, fillcolor="#E6F3FF", URL="./view.php?id=244", target="_parent"];
+"48" [label="EFRATI ESTER", style=filled, fillcolor="#FFE6F3", URL="./view.php?id=48", target="_parent"];
+"257" [label="PIPERNO RICCA", style=filled, fillcolor="#FFE6F3", URL="./view.php?id=257", target="_parent"];
+"256" [label="VENEZIANO ABRAMO SALVATORE", style=filled, fillcolor="#E6F3FF", URL="./view.php?id=256", target="_parent"];
+"265" [label="DI NEPI PERLA", style=filled, fillcolor="#E6F3FF", URL="./view.php?id=265", target="_parent"];
+"253" [label="DI VEROLI ISRAELE", style=filled, fillcolor="#E6F3FF", URL="./view.php?id=253", target="_parent"];
+"264" [label="EFRATI ABRAMO", style=filled, fillcolor="#E6F3FF", URL="./view.php?id=264", target="_parent"];
+"252" [label="HAVLE\' SPERANZA", style=filled, fillcolor="#FFE6F3", URL="./view.php?id=252", target="_parent"];
+"58" -> "60" [color=blue,label="Padre"];
+"58" -> "61" [color=pink,label="Madre"];
+"60" -> "244" [color=blue,label="Padre"];
+"60" -> "48" [color=pink,label="Madre"];
+"61" -> "256" [color=blue,label="Padre"];
+"61" -> "257" [color=pink,label="Madre"];
+"244" -> "253" [color=blue,label="Padre"];
+"244" -> "252" [color=pink,label="Madre"];
+"48" -> "264" [color=blue,label="Padre"];
+"48" -> "265" [color=pink,label="Madre"];
+}

@@ -1,0 +1,9 @@
+digraph G {
+rankdir=BT;
+node [shape=box, style=rounded, fontname=Helvetica, fontsize=12];
+"375" [label="CAVIGLIA SABATO RAFFAELE", style=filled, fillcolor="#E6F3FF", URL="./view.php?id=375", target="_parent"];
+"376" [label="CAVIGLIA ABRAMO", style=filled, fillcolor="#E6F3FF", URL="./view.php?id=376", target="_parent"];
+"380" [label="MENASCI ONORATA", style=filled, fillcolor="#FFE6F3", URL="./view.php?id=380", target="_parent"];
+"375" -> "376" [color=blue,label="Padre"];
+"375" -> "380" [color=pink,label="Madre"];
+}

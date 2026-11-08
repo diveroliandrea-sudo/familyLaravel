@@ -1,0 +1,17 @@
+digraph G {
+rankdir=BT;
+node [shape=box, style=rounded, fontname=Helvetica, fontsize=12];
+"328" [label="AMATI ITALO", style=filled, fillcolor="#E6F3FF", URL="./view.php?id=328", target="_parent"];
+"321" [label="AMATI AMEDEO", style=filled, fillcolor="#E6F3FF", URL="./view.php?id=321", target="_parent"];
+"325" [label="VENEZIANI EMILIA", style=filled, fillcolor="#FFE6F3", URL="./view.php?id=325", target="_parent"];
+"331" [label="AMATI ITALO", style=filled, fillcolor="#E6F3FF", URL="./view.php?id=331", target="_parent"];
+"318" [label="SONNINO PIA", style=filled, fillcolor="#FFE6F3", URL="./view.php?id=318", target="_parent"];
+"100" [label="AMATI ISACCO", style=filled, fillcolor="#E6F3FF", URL="./view.php?id=100", target="_parent"];
+"101" [label="VENEZIANO SARA", style=filled, fillcolor="#FFE6F3", URL="./view.php?id=101", target="_parent"];
+"328" -> "321" [color=blue,label="Padre"];
+"328" -> "325" [color=pink,label="Madre"];
+"321" -> "331" [color=blue,label="Padre"];
+"321" -> "318" [color=pink,label="Madre"];
+"331" -> "100" [color=blue,label="Padre"];
+"331" -> "101" [color=pink,label="Madre"];
+}

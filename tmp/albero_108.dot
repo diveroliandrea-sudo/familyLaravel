@@ -1,0 +1,5 @@
+digraph G {
+rankdir=BT;
+node [shape=box, style=rounded, fontname=Helvetica, fontsize=12];
+"108" [label="DI CORI BELLADONNA", style=filled, fillcolor="#FFE6F3", URL="./view.php?id=108", target="_parent"];
+}

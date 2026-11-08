@@ -1,0 +1,9 @@
+digraph G {
+rankdir=BT;
+node [shape=box, style=rounded, fontname=Helvetica, fontsize=12];
+"89" [label="DELLA SETA DONATO", style=filled, fillcolor="#E6F3FF", URL="./view.php?id=89", target="_parent"];
+"431" [label="DELLA SETA EMANUELE", style=filled, fillcolor="#E6F3FF", URL="./view.php?id=431", target="_parent"];
+"432" [label="PIAZZA EUGENIA", style=filled, fillcolor="#FFE6F3", URL="./view.php?id=432", target="_parent"];
+"89" -> "431" [color=blue,label="Padre"];
+"89" -> "432" [color=pink,label="Madre"];
+}

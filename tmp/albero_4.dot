@@ -1,0 +1,33 @@
+digraph G {
+rankdir=BT;
+node [shape=box, style=rounded, fontname=Helvetica, fontsize=12];
+"4" [label="DI VEROLI RUBEN", style=filled, fillcolor="#E6F3FF"];
+"2" [label="DI CONSIGLIO VALENTINA", style=filled, fillcolor="#FFE6F3"];
+"1" [label="DI VEROLI ANDREA", style=filled, fillcolor="#E6F3FF"];
+"8" [label="AMATI DORA", style=filled, fillcolor="#FFE6F3"];
+"10" [label="DI CONSIGLIO  PACIFICO", style=filled, fillcolor="#E6F3FF"];
+"7" [label="DI VEROLI CESARE", style=filled, fillcolor="#E6F3FF"];
+"11" [label="PIAZZA ELEONORA", style=filled, fillcolor="#FFE6F3"];
+"9" [label="AMATI GIULIO", style=filled, fillcolor="#E6F3FF"];
+"42" [label="DI CONSIGLIO GUGLIELMO", style=filled, fillcolor="#E6F3FF"];
+"19" [label="DI VEROLI ABRAMO UMBERTO", style=filled, fillcolor="#E6F3FF"];
+"20" [label="DI VEROLI GENTILE", style=filled, fillcolor="#FFE6F3"];
+"41" [label="PIAZZA GIOVANNI", style=filled, fillcolor="#E6F3FF"];
+"43" [label="SED PIAZZA BENVENUTA", style=filled, fillcolor="#FFE6F3"];
+"12" [label="SONNINO EMMA", style=filled, fillcolor="#FFE6F3"];
+"40" [label="SPIZZICHINO RINA", style=filled, fillcolor="#FFE6F3"];
+"4" -> "1" [color=blue,label="Padre"];
+"4" -> "2" [color=pink,label="Madre"];
+"2" -> "10" [color=blue,label="Padre"];
+"2" -> "11" [color=pink,label="Madre"];
+"1" -> "7" [color=blue,label="Padre"];
+"1" -> "8" [color=pink,label="Madre"];
+"8" -> "9" [color=blue,label="Padre"];
+"8" -> "12" [color=pink,label="Madre"];
+"10" -> "42" [color=blue,label="Padre"];
+"10" -> "43" [color=pink,label="Madre"];
+"7" -> "19" [color=blue,label="Padre"];
+"7" -> "20" [color=pink,label="Madre"];
+"11" -> "41" [color=blue,label="Padre"];
+"11" -> "40" [color=pink,label="Madre"];
+}

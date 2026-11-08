@@ -1,0 +1,13 @@
+digraph G {
+rankdir=BT;
+node [shape=box, style=rounded, fontname=Helvetica, fontsize=12];
+"18" [label="DELLA SETA FEDERICA", style=filled, fillcolor="#FFE6F3", URL="./view.php?id=18", target="_parent"];
+"89" [label="DELLA SETA DONATO", style=filled, fillcolor="#E6F3FF", URL="./view.php?id=89", target="_parent"];
+"93" [label="DI PORTO FATINA", style=filled, fillcolor="#FFE6F3", URL="./view.php?id=93", target="_parent"];
+"424" [label="CALO\' ELENA", style=filled, fillcolor="#FFE6F3", URL="./view.php?id=424", target="_parent"];
+"423" [label="DI PORTO CESARE", style=filled, fillcolor="#E6F3FF", URL="./view.php?id=423", target="_parent"];
+"18" -> "89" [color=blue,label="Padre"];
+"18" -> "93" [color=pink,label="Madre"];
+"93" -> "423" [color=blue,label="Padre"];
+"93" -> "424" [color=pink,label="Madre"];
+}

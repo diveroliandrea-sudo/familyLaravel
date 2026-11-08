@@ -1,0 +1,9 @@
+digraph G {
+rankdir=BT;
+node [shape=box, style=rounded, fontname=Helvetica, fontsize=12];
+"161" [label="DI CONSIGLIO CLAUDIO", style=filled, fillcolor="#E6F3FF", URL="./view.php?id=161", target="_parent"];
+"42" [label="DI CONSIGLIO GUGLIELMO", style=filled, fillcolor="#E6F3FF", URL="./view.php?id=42", target="_parent"];
+"43" [label="SED PIAZZA BENVENUTA", style=filled, fillcolor="#FFE6F3", URL="./view.php?id=43", target="_parent"];
+"161" -> "42" [color=blue,label="Padre"];
+"161" -> "43" [color=pink,label="Madre"];
+}

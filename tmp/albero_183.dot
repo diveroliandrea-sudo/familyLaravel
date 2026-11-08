@@ -1,0 +1,33 @@
+digraph G {
+rankdir=BT;
+node [shape=box, style=rounded, fontname=Helvetica, fontsize=12];
+"183" [label="CAVIGLIA LETIZIA", style=filled, fillcolor="#FFE6F3", URL="./view.php?id=183", target="_parent"];
+"251" [label="CAVIGLIA LELLO SAMUELE", style=filled, fillcolor="#E6F3FF", URL="./view.php?id=251", target="_parent"];
+"268" [label="TIVOLI MIRELLA", style=filled, fillcolor="#FFE6F3", URL="./view.php?id=268", target="_parent"];
+"333" [label="CALÒ LETIZIA", style=filled, fillcolor="#FFE6F3", URL="./view.php?id=333", target="_parent"];
+"332" [label="CAVIGLIA ISACCO EUGENIO", style=filled, fillcolor="#E6F3FF", URL="./view.php?id=332", target="_parent"];
+"400" [label="DI CORI ENRICA", style=filled, fillcolor="#FFE6F3", URL="./view.php?id=400", target="_parent"];
+"393" [label="TIVOLI GIACOMO", style=filled, fillcolor="#E6F3FF", URL="./view.php?id=393", target="_parent"];
+"381" [label="CALÒ DAVID", style=filled, fillcolor="#E6F3FF", URL="./view.php?id=381", target="_parent"];
+"373" [label="CAVIGLIA SABATO", style=filled, fillcolor="#E6F3FF", URL="./view.php?id=373", target="_parent"];
+"404" [label="DI CORI EUGENIO", style=filled, fillcolor="#E6F3FF", URL="./view.php?id=404", target="_parent"];
+"377" [label="DI PORTO ANGELICA", style=filled, fillcolor="#FFE6F3", URL="./view.php?id=377", target="_parent"];
+"401" [label="DI VEROLI OLGA", style=filled, fillcolor="#FFE6F3", URL="./view.php?id=401", target="_parent"];
+"399" [label="PACE ITALIA", style=filled, fillcolor="#FFE6F3", URL="./view.php?id=399", target="_parent"];
+"384" [label="SPIZZICHINO BELLADONNA", style=filled, fillcolor="#FFE6F3", URL="./view.php?id=384", target="_parent"];
+"394" [label="TIVOLI VITTORIO", style=filled, fillcolor="#E6F3FF", URL="./view.php?id=394", target="_parent"];
+"183" -> "251" [color=blue,label="Padre"];
+"183" -> "268" [color=pink,label="Madre"];
+"251" -> "332" [color=blue,label="Padre"];
+"251" -> "333" [color=pink,label="Madre"];
+"268" -> "393" [color=blue,label="Padre"];
+"268" -> "400" [color=pink,label="Madre"];
+"333" -> "381" [color=blue,label="Padre"];
+"333" -> "384" [color=pink,label="Madre"];
+"332" -> "373" [color=blue,label="Padre"];
+"332" -> "377" [color=pink,label="Madre"];
+"400" -> "404" [color=blue,label="Padre"];
+"400" -> "401" [color=pink,label="Madre"];
+"393" -> "394" [color=blue,label="Padre"];
+"393" -> "399" [color=pink,label="Madre"];
+}

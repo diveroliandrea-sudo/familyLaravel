@@ -1,0 +1,13 @@
+digraph G {
+rankdir=BT;
+node [shape=box, style=rounded, fontname=Helvetica, fontsize=12];
+"394" [label="TIVOLI VITTORIO", style=filled, fillcolor="#E6F3FF", URL="./view.php?id=394", target="_parent"];
+"398" [label="AMATI STELLA", style=filled, fillcolor="#FFE6F3", URL="./view.php?id=398", target="_parent"];
+"395" [label="TIVOLI GIACOBBE ISRAELE", style=filled, fillcolor="#E6F3FF", URL="./view.php?id=395", target="_parent"];
+"397" [label="DELLA TORRE SARA", style=filled, fillcolor="#FFE6F3", URL="./view.php?id=397", target="_parent"];
+"396" [label="TIVOLI ABRAMO GIUSEPPE", style=filled, fillcolor="#E6F3FF", URL="./view.php?id=396", target="_parent"];
+"394" -> "395" [color=blue,label="Padre"];
+"394" -> "398" [color=pink,label="Madre"];
+"395" -> "396" [color=blue,label="Padre"];
+"395" -> "397" [color=pink,label="Madre"];
+}

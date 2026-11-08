@@ -1,0 +1,9 @@
+digraph G {
+rankdir=BT;
+node [shape=box, style=rounded, fontname=Helvetica, fontsize=12];
+"152" [label="SPIZZICHINO ANGELO", style=filled, fillcolor="#E6F3FF", URL="./view.php?id=152", target="_parent"];
+"414" [label="ANTICOLI STELLA", style=filled, fillcolor="#FFE6F3", URL="./view.php?id=414", target="_parent"];
+"413" [label="SPIZZICHINO GIACOBBE", style=filled, fillcolor="#E6F3FF", URL="./view.php?id=413", target="_parent"];
+"152" -> "413" [color=blue,label="Padre"];
+"152" -> "414" [color=pink,label="Madre"];
+}

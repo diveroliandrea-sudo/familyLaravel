@@ -1,0 +1,17 @@
+digraph G {
+rankdir=BT;
+node [shape=box, style=rounded, fontname=Helvetica, fontsize=12];
+"373" [label="CAVIGLIA SABATO", style=filled, fillcolor="#E6F3FF", URL="./view.php?id=373", target="_parent"];
+"378" [label="ASTROLOGO ENRICHETTA", style=filled, fillcolor="#FFE6F3", URL="./view.php?id=378", target="_parent"];
+"374" [label="CAVIGLIA ABRAMO", style=filled, fillcolor="#E6F3FF", URL="./view.php?id=374", target="_parent"];
+"379" [label="CALÒ DEBORA", style=filled, fillcolor="#FFE6F3", URL="./view.php?id=379", target="_parent"];
+"375" [label="CAVIGLIA SABATO RAFFAELE", style=filled, fillcolor="#E6F3FF", URL="./view.php?id=375", target="_parent"];
+"376" [label="CAVIGLIA ABRAMO", style=filled, fillcolor="#E6F3FF", URL="./view.php?id=376", target="_parent"];
+"380" [label="MENASCI ONORATA", style=filled, fillcolor="#FFE6F3", URL="./view.php?id=380", target="_parent"];
+"373" -> "374" [color=blue,label="Padre"];
+"373" -> "378" [color=pink,label="Madre"];
+"374" -> "375" [color=blue,label="Padre"];
+"374" -> "379" [color=pink,label="Madre"];
+"375" -> "376" [color=blue,label="Padre"];
+"375" -> "380" [color=pink,label="Madre"];
+}

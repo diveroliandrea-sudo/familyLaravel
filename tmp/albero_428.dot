@@ -1,0 +1,13 @@
+digraph G {
+rankdir=BT;
+node [shape=box, style=rounded, fontname=Helvetica, fontsize=12];
+"428" [label="DI PORTO EMMA", style=filled, fillcolor="#FFE6F3", URL="./view.php?id=428", target="_parent"];
+"424" [label="CALO\' ELENA", style=filled, fillcolor="#FFE6F3", URL="./view.php?id=424", target="_parent"];
+"423" [label="DI PORTO CESARE", style=filled, fillcolor="#E6F3FF", URL="./view.php?id=423", target="_parent"];
+"425" [label="CALO\' ANGELO", style=filled, fillcolor="#E6F3FF", URL="./view.php?id=425", target="_parent"];
+"426" [label="PIPERNO FATINA", style=filled, fillcolor="#FFE6F3", URL="./view.php?id=426", target="_parent"];
+"428" -> "423" [color=blue,label="Padre"];
+"428" -> "424" [color=pink,label="Madre"];
+"424" -> "425" [color=blue,label="Padre"];
+"424" -> "426" [color=pink,label="Madre"];
+}

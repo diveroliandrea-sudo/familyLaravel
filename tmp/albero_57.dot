@@ -1,0 +1,9 @@
+digraph G {
+rankdir=BT;
+node [shape=box, style=rounded, fontname=Helvetica, fontsize=12];
+"57" [label="DI CAVE EMMA PERLA", style=filled, fillcolor="#FFE6F3", URL="./view.php?id=57", target="_parent"];
+"310" [label="DI CAVE PELLEGRINO", style=filled, fillcolor="#E6F3FF", URL="./view.php?id=310", target="_parent"];
+"311" [label="PERUGIA VEGLINA", style=filled, fillcolor="#FFE6F3", URL="./view.php?id=311", target="_parent"];
+"57" -> "310" [color=blue,label="Padre"];
+"57" -> "311" [color=pink,label="Madre"];
+}
